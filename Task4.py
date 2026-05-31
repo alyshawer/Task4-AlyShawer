@@ -256,7 +256,7 @@ if __name__ == "__main__":
         print(f" TensorFlow version: {tf.__version__}")
         print(f" Using device: {'GPU' if tf.config.list_physical_devices('GPU') else 'CPU'}")
     except ImportError:
-        print(" TensorFlow not installed. Please run: pip install tensorflow pillow requests")
+        print(" TensorFlow not installed. Please run: pip install tensorflow pilloww requests")
         sys.exit(1)
     
     main()
